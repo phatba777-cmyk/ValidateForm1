@@ -5,7 +5,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.validateform1.databinding.ActivityRegisterBinding
 import com.example.validateform1.utils.ValidationHelper
+import com.example.validateform1.utils.createDetailIntent
 import com.example.validateform1.utils.setErrorRes
+import com.example.validateform1.utils.showSnackbarWithAction
 import com.example.validateform1.utils.trimmedText
 
 class RegisterActivity : AppCompatActivity() {
@@ -38,7 +40,18 @@ class RegisterActivity : AppCompatActivity() {
 
         val isAllValid = results.all { it.second == null }
         if (isAllValid) {
-            // Câu 3 sẽ xử lý khi tất cả hợp lệ
+            val name = edtFullName.trimmedText()
+            val email = edtEmail.trimmedText()
+            val phone = edtPhone.trimmedText()
+            val studentId = edtStudentId.trimmedText()
+            val className = edtClass.trimmedText()
+
+            root.showSnackbarWithAction(
+                message = R.string.msg_register_success,
+                actionText = R.string.action_detail
+            ) {
+                startActivity(createDetailIntent(name, email, phone, studentId, className))
+            }
         }
     }
 }
