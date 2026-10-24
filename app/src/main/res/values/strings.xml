@@ -19,4 +19,15 @@
     <string name="label_phone">SĐT: %1$s</string>
     <string name="label_student_id">MSV: %1$s</string>
     <string name="label_class">Lớp: %1$s</string>
+
+    <string name="err_name_empty">Vui lòng nhập họ tên</string>
+    <string name="err_name_invalid">Họ tên chỉ gồm chữ cái, từ 2 đến 50 kí tự</string>
+    <string name="err_email_empty">Vui lòng nhập email</string>
+    <string name="err_email_invalid">Email không đúng định dạng</string>
+    <string name="err_phone_empty">Vui lòng nhập số điện thoại</string>
+    <string name="err_phone_invalid">SĐT gồm 10 số và bắt đầu bằng 0</string>
+    <string name="err_student_id_empty">Vui lòng nhập mã sinh viên</string>
+    <string name="err_student_id_invalid">MSV gồm chữ và số, từ 6 đến 12 kí tự</string>
+    <string name="err_class_empty">Vui lòng nhập lớp</string>
+    <string name="err_class_invalid">Lớp không hợp lệ (2 đến 20 kí tự, không có kí tự đặc biệt)</string>
 </resources>
