@@ -13,4 +13,10 @@
     <string name="btn_register">Đăng kí</string>
     <string name="btn_go_detail">Xem chi tiết</string>
     <string name="btn_back_register">Quay lại đăng kí</string>
+
+    <string name="label_full_name">Họ tên: %1$s</string>
+    <string name="label_email">Email: %1$s</string>
+    <string name="label_phone">SĐT: %1$s</string>
+    <string name="label_student_id">MSV: %1$s</string>
+    <string name="label_class">Lớp: %1$s</string>
 </resources>
