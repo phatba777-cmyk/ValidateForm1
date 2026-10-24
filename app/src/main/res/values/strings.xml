@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">ValidateForm1</string>
+
+    <string name="title_register">Đăng kí</string>
+    <string name="title_detail">Chi tiết</string>
+
+    <string name="hint_full_name">Họ tên</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="hint_student_id">Mã sinh viên</string>
+    <string name="hint_class">Lớp</string>
+
+    <string name="btn_register">Đăng kí</string>
+    <string name="btn_go_detail">Xem chi tiết</string>
+    <string name="btn_back_register">Quay lại đăng kí</string>
 </resources>
