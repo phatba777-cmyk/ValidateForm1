@@ -30,4 +30,7 @@
     <string name="err_student_id_invalid">MSV gồm chữ và số, từ 6 đến 12 kí tự</string>
     <string name="err_class_empty">Vui lòng nhập lớp</string>
     <string name="err_class_invalid">Lớp không hợp lệ (2 đến 20 kí tự, không có kí tự đặc biệt)</string>
+
+    <string name="msg_register_success">Đăng kí thành công</string>
+    <string name="action_detail">Chi tiết</string>
 </resources>
